@@ -1,0 +1,194 @@
+.dark-theme {
+  background-color: #2a3b4c; 
+  color: #005fa8; 
+}
+
+.light-theme {
+  background-color: #e6f7ff; 
+  color: #333; 
+}
+
+.navbar, .footer {
+  padding: 1rem;
+}
+
+.navbar {
+  background-color: #cce7f0; 
+  color: #000;
+}
+
+.dark-theme .navbar {
+  background-color: #1f2933;
+  color: #e0f7fa;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: inherit; 
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #b0d4e3;
+  border-radius: 4px;
+}
+
+nav button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #005fa3; 
+}
+
+/* Footer */
+.footer {
+  background-color: #cce7f0; 
+  color: #000;
+  text-align: center;
+}
+
+.dark-theme .footer {
+  background-color: #1f2933; 
+  color: #005fa3; 
+}
+
+/* Vista de Contacto */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+.contact-container h2 {
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  margin-bottom: 30px; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #b0d4e3; 
+  border-radius: 6px;
+  font-size: 16px; 
+}
+
+button {
+  padding: 12px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.errors {
+  color: red;
+  font-weight: bold;
+}
+
+/* Card.css */
+.card {
+  border: 1px solid #b0d4e3; 
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 350px; 
+  margin: 20px; 
+  background-color: #fff; 
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 250px; 
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card-content p {
+  font-size: 16px;
+  color: #555; 
+}
+
+.card-link {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.favButton {
+  display: block; 
+  margin: 15px auto; 
+  background-color: #007acc; 
+  color: #000;
+  border: none;
+  padding: 12px 20px; 
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.favButton:hover {
+  background-color: #005fa3; 
+}
